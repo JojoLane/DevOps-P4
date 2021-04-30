@@ -18,7 +18,7 @@ jobs:
           ms-teams-webhook-uri: ${{ secrets.MS_TEAMS_WEBHOOK_URI }}
           notification-summary: Your custom notification message 
           notification-color: 17a2b8
-          timezone: America/Denver
+          timezone: Ireland/Dublin
       - name: npm install and build webpack
         run: |
           npm install
